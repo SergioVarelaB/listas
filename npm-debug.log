@@ -1,0 +1,115 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'request', 'bs4' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData request
+8 silly fetchPackageMetaData bs4
+9 silly fetchNamedPackageData request
+10 silly mapToRegistry name request
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/request
+14 silly fetchNamedPackageData bs4
+15 silly mapToRegistry name bs4
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/bs4
+19 verbose request uri https://registry.npmjs.org/request
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 12:33:26
+22 verbose request id bc143b3d6ac7aa28
+23 http request GET https://registry.npmjs.org/request
+24 verbose request uri https://registry.npmjs.org/bs4
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 12:33:26
+27 http request GET https://registry.npmjs.org/bs4
+28 http 200 https://registry.npmjs.org/request
+29 verbose headers { date: 'Sat, 07 Dec 2019 19:33:26 GMT',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'transfer-encoding': 'chunked',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'set-cookie':
+29 verbose headers    [ '__cfduid=ddb671bf6d76c958996959021a6d42e1c1575747206; expires=Mon, 06-Jan-20 19:33:26 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+29 verbose headers   'cf-ray': '5418ee6a9fd6ec92-DFW',
+29 verbose headers   age: '2797',
+29 verbose headers   'cache-control': 'public, max-age=300',
+29 verbose headers   etag: 'W/"c566e68fc36cacf0ca652754877088f1"',
+29 verbose headers   'last-modified': 'Fri, 11 Oct 2019 09:45:45 GMT',
+29 verbose headers   vary: 'accept-encoding, accept',
+29 verbose headers   'cf-cache-status': 'HIT',
+29 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+29 verbose headers   server: 'cloudflare',
+29 verbose headers   'content-encoding': 'gzip' }
+30 silly get cb [ 200,
+30 silly get   { date: 'Sat, 07 Dec 2019 19:33:26 GMT',
+30 silly get     'content-type': 'application/json',
+30 silly get     'transfer-encoding': 'chunked',
+30 silly get     connection: 'keep-alive',
+30 silly get     'set-cookie':
+30 silly get      [ '__cfduid=ddb671bf6d76c958996959021a6d42e1c1575747206; expires=Mon, 06-Jan-20 19:33:26 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+30 silly get     'cf-ray': '5418ee6a9fd6ec92-DFW',
+30 silly get     age: '2797',
+30 silly get     'cache-control': 'public, max-age=300',
+30 silly get     etag: 'W/"c566e68fc36cacf0ca652754877088f1"',
+30 silly get     'last-modified': 'Fri, 11 Oct 2019 09:45:45 GMT',
+30 silly get     vary: 'accept-encoding, accept',
+30 silly get     'cf-cache-status': 'HIT',
+30 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+30 silly get     server: 'cloudflare',
+30 silly get     'content-encoding': 'gzip' } ]
+31 verbose get saving request to /home/sergio/.npm/registry.npmjs.org/request/.cache.json
+32 verbose makeDirectory /home/sergio/.npm creation not in flight; initializing
+33 silly makeDirectory /home/sergio/.npm uid: 1000 gid: 1000
+34 http 200 https://registry.npmjs.org/bs4
+35 verbose headers { date: 'Sat, 07 Dec 2019 19:33:27 GMT',
+35 verbose headers   'content-type': 'application/json; charset=UTF-8',
+35 verbose headers   'transfer-encoding': 'chunked',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'set-cookie':
+35 verbose headers    [ '__cfduid=d4306dda3cf46cf4bebd466d03bfab96f1575747206; expires=Mon, 06-Jan-20 19:33:26 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+35 verbose headers   'cf-ray': '5418ee6a9bcec81a-DFW',
+35 verbose headers   'cache-control': 'public, max-age=300',
+35 verbose headers   etag: 'W/"f9896cdda4fcd099290502ec828f6716"',
+35 verbose headers   'last-modified': 'Sat, 26 May 2018 19:05:02 GMT',
+35 verbose headers   vary: 'accept-encoding, accept',
+35 verbose headers   'cf-cache-status': 'MISS',
+35 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+35 verbose headers   server: 'cloudflare',
+35 verbose headers   'content-encoding': 'gzip' }
+36 silly get cb [ 200,
+36 silly get   { date: 'Sat, 07 Dec 2019 19:33:27 GMT',
+36 silly get     'content-type': 'application/json; charset=UTF-8',
+36 silly get     'transfer-encoding': 'chunked',
+36 silly get     connection: 'keep-alive',
+36 silly get     'set-cookie':
+36 silly get      [ '__cfduid=d4306dda3cf46cf4bebd466d03bfab96f1575747206; expires=Mon, 06-Jan-20 19:33:26 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+36 silly get     'cf-ray': '5418ee6a9bcec81a-DFW',
+36 silly get     'cache-control': 'public, max-age=300',
+36 silly get     etag: 'W/"f9896cdda4fcd099290502ec828f6716"',
+36 silly get     'last-modified': 'Sat, 26 May 2018 19:05:02 GMT',
+36 silly get     vary: 'accept-encoding, accept',
+36 silly get     'cf-cache-status': 'MISS',
+36 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+36 silly get     server: 'cloudflare',
+36 silly get     'content-encoding': 'gzip' } ]
+37 verbose get saving bs4 to /home/sergio/.npm/registry.npmjs.org/bs4/.cache.json
+38 verbose stack TypeError: Cannot convert undefined or null to object
+38 verbose stack     at Function.keys (<anonymous>)
+38 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:121:29)
+38 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+38 verbose stack     at /usr/share/npm/lib/utils/pulse-till-done.js:19:8
+38 verbose stack     at saved (/usr/share/npm/lib/cache/caching-client.js:168:7)
+38 verbose stack     at /usr/share/npm/node_modules/graceful-fs/polyfills.js:210:7
+38 verbose stack     at FSReqWrap.oncomplete (fs.js:135:15)
+39 verbose cwd /home/sergio/Documentos/python
+40 error Linux 4.15.0-70-generic
+41 error argv "/usr/bin/node" "/usr/bin/npm" "install" "request" "bs4"
+42 error node v8.10.0
+43 error npm  v3.5.2
+44 error Cannot convert undefined or null to object
+45 error If you need help, you may report this error at:
+45 error     <https://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]
